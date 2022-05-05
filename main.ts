@@ -31,7 +31,10 @@ basic.forever(function () {
         }
         radio.sendValue("luz de", luz_de)
     }
-    if (tinkercademy.ADKeyboard(ADKeys.A, AnalogPin.P3)) {
+    if (tinkercademy.ADKeyboard(ADKeys.C, AnalogPin.P3)) {
+        radio.sendValue("Alan o atr", 0)
+    }
+    if (tinkercademy.ADKeyboard(ADKeys.D, AnalogPin.P3)) {
     	
     }
 })
